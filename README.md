@@ -28,10 +28,11 @@
 * Go to Project root directory and run command: `npm update`
 
 ### How to view HTML report
+* To open last HTML report run: `npx playwright show-report`
 * Go to Project root directory: `./playwright-report/index.html`
 
 ### How to view traces of all test
 * Playwright Trace Viewer is a GUI tool that helps you explore recorded Playwright traces after the script has ran. Traces are a great way for debugging your tests when they fail on CI. You can open traces locally or in your browser on [trace.playwright.dev.](https://trace.playwright.dev/)
 * You can open the saved trace using the Playwright CLI or in your browser on [trace.playwright.dev.](https://trace.playwright.dev/). Make sure to add the full path to where your trace.zip file is located. This should include the full path to your trace.zip file.
-* Go to Project root directory: `./test-results/`
+* Go to Project root directory: `./test-results/` and under each test you can find trace.zip
 
